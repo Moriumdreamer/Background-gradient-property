@@ -1,0 +1,33 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+h1{
+    border-bottom: 2px solid black;
+    padding: 0 5px;
+    text-align: center;
+    width: 20%;
+    margin: 0 auto;
+}
+.background-image{
+    margin: 5px auto;
+    max-width: 1600px;
+    background-image: url("./image2.avif");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 80vh;
+    border: 2px solid white;
+    border-radius: 50px 50px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+}
+.Gradient-color{
+    background:linear-gradient(to bottom right, #4e757d,#1e2530);
+    max-width: 1600px;
+    height: 80vh;
+    margin: 5px auto;
+    border: 2px solid white;
+    border-radius: 50px 50px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+}
